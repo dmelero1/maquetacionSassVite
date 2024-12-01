@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'FontInter';
+    src: url('../assets/fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'FontLato';
+    src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+$color-white: white;
+$color-black: black;
+$color-grey: #656565;
+$color-dark-grey: #363D3C;
+$color-primary1:#FF00B2;
+$color-primary2:#FB0047;
+$color-primary3: #CFA1FF;
+$color-primary4: #EAF9FF;
+$color-secondary1: #363D3C;
+$color-secondary2: #0BDBAD;
+$color-secondary3: #8CFA6B;
+$color-secondary4: #00DC3B;
+$color-secondary5: #007D00;
+$color-support1: #0BE400;
+$color-support2: #F9EA47;
+$color-support3: #F44930;
+$color-support4: #00CFFD;
+
+
+$font-weight-bold: bold;
+$font-inter: "FontInter", normal;
+$font-lato: "FontLato", normal;
+$font-size-10: 10px;
+$font-size-16: 16px;
+$font-size-21: 21px;
+$font-size-32: 32px;
+$font-size-36: 36px;
+$text-decoration-none: none;
+$list-style-none: none;
+
+$default-bg-color: rgb(223, 223, 223);

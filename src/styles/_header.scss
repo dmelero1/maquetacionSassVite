@@ -1,0 +1,26 @@
+@use "globals" as *;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px; 
+  
+    .logo img {
+      max-height: 50px; 
+    }
+    ul {
+      display: flex; 
+      gap: 40px; 
+      li {
+      margin: 0;
+          a {
+          text-decoration: $text-decoration-none;
+          color: $color-black; 
+              &:hover {
+              color: $color-primary1;
+              }
+          }
+      }
+    }
+}
