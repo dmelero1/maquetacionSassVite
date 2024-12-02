@@ -7,10 +7,10 @@ export default defineConfig({
     outDir: "./docs",
     rollupOptions: {
       input: {
-        pagina1: resolve(__dirname, "pagina1.html"),
-        pagina2: resolve(__dirname, "pagina2.html"),
+        index: resolve(__dirname, "index.html"),
+        info: resolve(__dirname, "info.html"),
       },
     },
   },
-  base: "./myfinalweb/",
+  base: './maquetacionSassVite',
 });
